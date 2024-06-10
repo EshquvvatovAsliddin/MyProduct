@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(120deg, red, rgb(234, 27, 199), blue); */
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    gap: 10px;
+
+    input,
+    button {
+        padding: 10px 20px;
+        outline: none;
+    }
+}

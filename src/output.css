@@ -715,14 +715,8 @@ video {
   clear: none;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.mx-\[40\] {
-  margin-left: 40;
-  margin-right: 40;
+.-mt-20 {
+  margin-top: -5rem;
 }
 
 .-mt-40 {
@@ -733,48 +727,20 @@ video {
   margin-top: -440px;
 }
 
-.ml-\[80px\] {
-  margin-left: 80px;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-\[100px\] {
-  margin-top: 100px;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .mb-5 {
   margin-bottom: 1.25rem;
 }
 
-.ml-0 {
-  margin-left: 0px;
-}
-
-.ml-20 {
-  margin-left: 5rem;
-}
-
-.ml-\[50\%\] {
-  margin-left: 50%;
-}
-
-.ml-\[30\%\] {
-  margin-left: 30%;
-}
-
-.ml-\[10\%\] {
-  margin-left: 10%;
-}
-
-.ml-\[40\%\] {
-  margin-left: 40%;
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .ml-\[12\%\] {
@@ -785,8 +751,20 @@ video {
   margin-left: 44%;
 }
 
+.ml-\[80px\] {
+  margin-left: 80px;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
 }
 
 .box-border {
@@ -904,6 +882,10 @@ video {
   width: 160px;
 }
 
+.w-\[4020px\] {
+  width: 4020px;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -914,6 +896,10 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
+}
+
+.min-w-\[257px\] {
+  min-width: 257px;
 }
 
 .flex-shrink {
@@ -1256,10 +1242,6 @@ video {
 
 .grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -2047,6 +2029,10 @@ video {
   padding-bottom: 200px;
 }
 
+.pl-32 {
+  padding-left: 8rem;
+}
+
 .pl-\[160px\] {
   padding-left: 160px;
 }
@@ -2055,16 +2041,12 @@ video {
   padding-top: 8rem;
 }
 
+.pt-52 {
+  padding-top: 13rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pt-\[\] {
-  padding-top: ;
-}
-
-.pt-\[100px\] {
-  padding-top: 100px;
 }
 
 .pt-\[200px\] {
@@ -2131,6 +2113,10 @@ video {
   font-size: 18px;
 }
 
+.text-\[22px\] {
+  font-size: 22px;
+}
+
 .text-\[30px\] {
   font-size: 30px;
 }
@@ -2139,12 +2125,12 @@ video {
   font-size: 32px;
 }
 
-.text-\[40px\] {
-  font-size: 40px;
+.text-\[35px\] {
+  font-size: 35px;
 }
 
-.text-\[22px\] {
-  font-size: 22px;
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .font-bold {
@@ -2715,80 +2701,28 @@ video {
     order: 2;
   }
 
-  .max-lg\:ml-\[40\%\] {
-    margin-left: 40%;
+  .max-lg\:ml-\[30\%\] {
+    margin-left: 30%;
   }
 
-  .max-lg\:mt-\[\] {
-    margin-top: ;
+  .max-lg\:ml-\[350\%\] {
+    margin-left: 350%;
   }
 
-  .max-lg\:mt-\[160px\] {
-    margin-top: 160px;
+  .max-lg\:ml-\[46\%\] {
+    margin-left: 46%;
   }
 
-  .max-lg\:mt-\[200px\] {
-    margin-top: 200px;
+  .max-lg\:ml-\[9\%\] {
+    margin-left: 9%;
   }
 
-  .max-lg\:mt-\[120px\] {
-    margin-top: 120px;
+  .max-lg\:mt-32 {
+    margin-top: 8rem;
   }
 
-  .max-lg\:ml-\[15\%\] {
-    margin-left: 15%;
-  }
-
-  .max-lg\:ml-\[1\%\] {
-    margin-left: 1%;
-  }
-
-  .max-lg\:ml-\[11\%\] {
-    margin-left: 11%;
-  }
-
-  .max-lg\:ml-\[14\%\] {
-    margin-left: 14%;
-  }
-
-  .max-lg\:ml-\[13\%\] {
-    margin-left: 13%;
-  }
-
-  .max-lg\:mt-\[40px\] {
-    margin-top: 40px;
-  }
-
-  .max-lg\:mt-\[20px\] {
-    margin-top: 20px;
-  }
-
-  .max-lg\:mt-\[30px\] {
-    margin-top: 30px;
-  }
-
-  .max-lg\:ml-\[4\%\] {
-    margin-left: 4%;
-  }
-
-  .max-lg\:ml-\[12\.5\%\] {
-    margin-left: 12.5%;
-  }
-
-  .max-lg\:ml-\[5\%\] {
-    margin-left: 5%;
-  }
-
-  .max-lg\:ml-\[50\%\] {
-    margin-left: 50%;
-  }
-
-  .max-lg\:ml-\[11\.5\%\] {
-    margin-left: 11.5%;
-  }
-
-  .max-lg\:ml-\[41\%\] {
-    margin-left: 41%;
+  .max-lg\:mt-\[-300px\] {
+    margin-top: -300px;
   }
 
   .max-lg\:hidden {
@@ -2799,12 +2733,12 @@ video {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  .max-lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
   .max-lg\:justify-center {
     justify-content: center;
+  }
+
+  .max-lg\:pl-\[250px\] {
+    padding-left: 250px;
   }
 
   .max-lg\:text-center {
@@ -2817,8 +2751,8 @@ video {
     margin-left: -140px;
   }
 
-  .max-sm\:ml-\[-30\%\] {
-    margin-left: -30%;
+  .max-sm\:ml-\[-80\%\] {
+    margin-left: -80%;
   }
 
   .max-sm\:ml-\[11\%\] {
@@ -2845,6 +2779,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
