@@ -22,13 +22,18 @@ userbtn.addEventListener("click", function () {
         userpassword.style.textDecorationColor = "red";
         userpassword.style.textDecorationStyle = "wavy";
 
-
-
+        let testuser = prompt("Parolingiz hato Parolingizni qayta tiklamoqchimisiz (ha), (yo'q)");
+        if (testuser === 'ha') {
+            let recoverypassword = prompt("new password");
+            password = recoverypassword;
+        } else {
+            alert("Bekor qilindi!");
+        }
     }
     else {
         userEmail.style.border = "2px solid green";
         userpassword.style.border = "2px solid green";
-        let tanlov = confirm('Open it?');
+        let tanlov = confirm('Ochishga Ruxsat Bering!');
         if (tanlov === true) {
             window.open('/index.html', '_blank');
         }
